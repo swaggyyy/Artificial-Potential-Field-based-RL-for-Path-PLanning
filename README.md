@@ -1,8 +1,11 @@
 # Artificial-Potential-Field-based-RL-for-planning
+环境依赖：
+
 stable-baselines3            1.8.0
 gym                          0.21.0
 
 奖励函数优化目标
+
 引力奖励（目标吸引力）：
 鼓励车辆靠近目标位置，但需要避免在接近目标时奖励震荡。
 改为平滑的距离递减函数，例如高斯衰减函数或对数衰减函数。
