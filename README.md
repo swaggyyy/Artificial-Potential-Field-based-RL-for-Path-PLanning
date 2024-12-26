@@ -34,3 +34,7 @@ gym                          0.21.0
 
 ![simulation](https://github.com/user-attachments/assets/7b79de7a-be3f-46e0-9aa2-60c3e3dc258a)
 
+人工势场法：
+
+![trajectory](https://github.com/user-attachments/assets/40f02cdb-a4b7-4f21-baf2-d9d9b35560e0)
+
