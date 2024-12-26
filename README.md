@@ -30,9 +30,13 @@ gym                          0.21.0
 训练时将train=True
 测试时将train=False
 
-模型测试：
+绝对位置观测空间测试：
 
 ![simulation](https://github.com/user-attachments/assets/836ebc5e-5e57-4fff-8074-16ad75f0eb87)
+
+相对位置观测空间（前方两个障碍物）
+
+![relative_front_2_position](https://github.com/user-attachments/assets/4b04e21c-8d68-4eb7-9c2d-b46185ddc974)
 
 
 人工势场法：
