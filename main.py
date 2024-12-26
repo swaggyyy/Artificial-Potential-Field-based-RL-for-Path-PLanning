@@ -95,13 +95,13 @@ class myenv(Env):
         self.unite_vec[len(self.Pobs)] = self.delta[len(self.Pobs)] / self.dists[len(self.Pobs)]
 
         # 引力奖励（目标吸引力）
-        F_att_reward = np.exp(-self.dists[len(self.Pobs)] / 10)  # 高斯衰减
+        F_att_reward = np.exp(-self.dists[len(self.Pobs)] / 10)  # 指数衰减
 
         # 障碍物斥力奖励函数设计
         F_rep_ob_reward = 0
         for j in range(len(self.Pobs)):
             if self.dists[j] < self.d0:  # 距离小于最大影响距离
-                F_rep_ob_reward += np.exp(-self.dists[j] / 5)  # 高斯衰减的斥力
+                F_rep_ob_reward += np.exp(-self.dists[j] / 5)  # 指数衰减的斥力
 
         F_rep_ob_reward = -F_rep_ob_reward  # 斥力总是负的
 
