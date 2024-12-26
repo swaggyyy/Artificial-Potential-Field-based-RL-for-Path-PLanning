@@ -1,4 +1,4 @@
-# Artificial-Potential-Field-based-RL-for-planning
+# Artificial-Potential-Field-based-RL-for- Path-Planning
 环境依赖：
 
 stable-baselines3            1.8.0
