@@ -2,6 +2,7 @@
 环境依赖：
 
 stable-baselines3            1.8.0
+
 gym                          0.21.0
 
 奖励函数优化目标
